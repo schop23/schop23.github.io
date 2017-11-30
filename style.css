@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: url(background2.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 60px;
+    text-decoration: underline;
+    color: gold;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: navy;
+}
+
+.selfie {
+    height: 200px;
+    width:  175px;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+p {
+    color: gold;
+    font-size: 20px;
+}
+
+.LI-profile-badge {
+    display: center;
+}
+
+a {
+    text-decoration: underline; color: gold;
+}

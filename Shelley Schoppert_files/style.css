@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: #0000ff;
+}
+
+.selfie {
+    height: 200px;
+    width:  175px;
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
