@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     background: url(background2.jpg);
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 .LI-profile-badge {
-    display: center;
+    margin: auto;
 }
 
 a {
