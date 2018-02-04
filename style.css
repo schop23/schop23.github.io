@@ -1,19 +1,20 @@
 body {
     text-align: center;
-    font-family: Arial, sans-serif;
-    background: url(background2.jpg);
+    font-family: Tahoma, Geneva, sans-serif;
+    background: lightgray;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 h1 {
-    font-size: 60px;
-    text-decoration: underline;
-    color: gold;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(46, 46, 46);
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 500;
     text-decoration: underline;
     color: navy;
 }
@@ -30,7 +31,7 @@ li {
 }
 
 p {
-    color: gold;
+    color: rgb(46, 46, 46);
     font-size: 20px;
 }
 
@@ -39,5 +40,5 @@ p {
 }
 
 a {
-    text-decoration: underline; color: gold;
+    text-decoration: underline; color: rgb(46, 46, 46);
 }
