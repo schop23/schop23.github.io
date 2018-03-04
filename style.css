@@ -126,6 +126,14 @@ body {
   margin: 20px;
 }
 
+.figcaption {
+  font-size: 20px;
+}
+
+.project-code-link {
+  color: black;
+}
+
 .in-touch {
   background-color: silver;
   text-align: center;
