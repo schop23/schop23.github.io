@@ -8,10 +8,11 @@ body {
 .banner-container {
   color: white;
   text-align: center;
-  background-image: url(./img/flag2.jpg);
+  background-image: url(./img/comic2.jpg);
   background-size: cover;
-  height: 600px;
+  height: 660px;
   width: 1450px;
+  padding: 10px 0 40px 0;
 }
 
 .hello {
@@ -21,6 +22,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 130px;
+  text-shadow: 8px 8px 16px #000000;
 }
 
 .greeting {
@@ -30,6 +32,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
+  text-shadow: 8px 8px 16px #000000;
 }
 
 .about-me {
@@ -138,4 +141,7 @@ body {
 
 .icons {
   margin: 30px;
+}
+
+@media screen (min-width: 320px) and (max-width: 480px){
 }
