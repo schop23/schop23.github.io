@@ -12,42 +12,57 @@
 
 <body>
   <div class='banner-container'>
+    <div class="nav">
+      <ul>
+        <li class="contact"><a href="#contact">Contact Me</a></li>
+        <li class="news"><a href="#my_work">My Work</a></li>
+        <li class="about"><a href="#about_me">About Me</a></li>
+      </ul>
+    </div>
     <h1 class='hello'>Hello.</h1>
     <h3 class='greeting'>My name is Shelley. I'm a Full-Stack Web Developer.</h3>
   </div><!--
 
   --><div class='about-me'>
-    <h2 class='little-bit'>A Little Bit About Me.</h2>
-    <img src='./img/vision.png' class='glasses' alt='glasses'>
+    <a id='about_me'>
+      <h2 class='little-bit'>A Little Bit About Me.</h2>
+    </a>
+    <!-- <img src='./img/vision.png' class='glasses' alt='glasses'> -->
   </div>
   
-  <div class=selfie-brand-container>
+  <div class='about-me-container'>
+    <div class=selfie-brand-container>
       <img src='./img/ga-pic.jpg' class='selfie' alt='picture of myself'>
       <h2 class='selfie-name'>Shelley Schoppert</h2>
       <h4 class='selfie-title'>Full-Stack Web Developer</h4>
     </div>
     <div class='brand-statement'>
-        <p>I am an outgoing and driven web developer. I tap into my creative<br> side to make attractive and intuitive applications. I am<br> unwavering in my commitments and find great joy in helping<br> others to improve their quality of life.
+        <p>I am an outgoing and driven web developer.<br> I tap into my creative side to make attractive<br> and intuitive applications. I am unwavering<br> in my commitments and find great joy in<br> helping others to improve their quality of life.
         </p>
         <form target='blank' action='./files/resume.schoppert.pdf'> 
           <button class=resume type='submit'>My Resume</button>
     </div> 
-
-  <div class='my-work'>
-    <h2 class='work'>My Work.</h2>
-    <img src='./img/vision.png' class='glasses' alt='glasses'>
   </div>
 
-  <div class='project-pics-row-1'>
+  <div class='my-work'>
+    <a id='my_work'>
+      <h2 class='work'>My Work.</h2>
+    </a>
+    <!-- <img src='./img/vision.png' class='glasses' alt='glasses'> -->
+  </div>
+
+  <div class='project-row-1'>
+    
     <figure>
      <a target='blank' href='https://schop23.github.io/star_wars_trivia/'>
         <img src='./img/star-wars-screen-shot.png' class='star-wars' alt='screen shot of Star Wars Trivia'></a>
         <figcaption class='figcaption'>
-          A Star-Wars based trivia game built using HTML5, CSS3, and JavaScript. Deployed via GitHub. <br><a target='blank' href='https://github.com/schop23/star_wars_trivia' class='project-code-link'>Code Here</a>
+          A Star-Wars based trivia game built using HTML5, CSS3, and JavaScript.<br> Deployed via GitHub. <br><a target='blank' href='https://github.com/schop23/star_wars_trivia' class='project-code-link'>Code Here</a>
         </figcaption>
-      
     </figure>
+  </div>
 
+  <div class='project-row-2'>
     <figure>
       <a target='blank' href='https://weekly-kryptonite.herokuapp.com/'>
         <img src='./img/wk-screen-shot.png' class='kryptonite' alt='screen shot of Weekly Krytonite'></a>
@@ -58,7 +73,7 @@
     </figure>
   </div>
 
-  <div class='project-pics-row-2'>
+  <div class='project-row-3'>
     <figure>
       <a href='https://probstin.github.io/m8d/browse' class='project-code-link'>
         <img src='./img/M8D.png' class='M8D' alt='screen shot of M8D'>
@@ -69,24 +84,28 @@
         <a target='blank' href='https://github.com/schop23/project_3_server_final' class='project-code-link'>Back End Code Here</a>
       </figcaption>
     </figure>
+  </div>
 
+  <div class='project-row-4'>
     <figure>
       <a target='blank' href='https://schop23.github.io/capitol/'>
         <img src='./img/capitol.png' class='capitol' alt='screenshot of capitol website'>
       </a>
       <figcaption class='figcaption'>
-        UX/UI students designed a website and I replicated it for them. Built using HTML5 and CSS3.<br> Deployed via GitHub.<br>
+        Capitol Standard is an online magazine based out of Washington, DC. I was<br> brought on to build and write the code for their prototype homepage. I<br> worked with a team of five composed of UX designers and data scientists.<br> Deployed via GitHub.<br>
         <a target='blank' href='https://github.com/schop23/capitol' class='project-code-link'>Code Here</a>
       </figcaption>
     </figure>
   </div>
 
   <div class='in-touch'>
-    <h2 class='touch-text'>Get in Touch.</h2>
-    <img src='./img/vision.png' class='glasses' alt='glasses'>
+    <a id='contact'>
+      <h2 class='touch-text'>Get in Touch.</h2>
+    </a>
+    <!-- <img src='./img/vision.png' class='glasses' alt='glasses'> -->
   </div>
   <div class='contact-info'>
-      <a class='email' href="mailto:schoppert.sa@gmail.com">Email Me Here</a>
+      <a class='email' href="mailto:schoppert.sa@gmail.com">schoppert.sa@gmail.com</a>
     <div class='icons'>
         <a href='https://www.linkedin.com/in/shelley-schoppert-11211092/'>
           <i class="fab fa-linkedin fa-2x"></i>
